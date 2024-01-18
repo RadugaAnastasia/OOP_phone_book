@@ -2,6 +2,7 @@ phone_book = {}
 path = 'phones.txt'
 SEPARATOR = ';' # Капсом пишем константы
 
+
 def open_file():
     global phone_book #глобал - используем что-то вне функции, а не внурти
     with open(path, 'r', encoding = 'UTF-8') as file: #encoding, чтобы кириллица отображалась корректно
